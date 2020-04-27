@@ -160,9 +160,9 @@ function draw(){
       textAlign(CENTER,BASELINE);
       if (current_score>=highest_score){
         highest_score=current_score;
-        text('perdiste luchi. pero es un nuevo record!',x_res/2,y_res/2-retry.height);
+        text('perdiste. pero es un nuevo record!',x_res/2,y_res/2-retry.height);
       }else{
-        text('perdiste luchi. pero te sigo queriendo',x_res/2,y_res/2-retry.height);
+        text('perdiste. sigue intentandolo',x_res/2,y_res/2-retry.height);
       }
     }
   }else{
